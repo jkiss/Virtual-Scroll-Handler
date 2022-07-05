@@ -8,17 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jkiss/Virtual-Scroll-Handler.git"
+    "url": "git+ssh://git@github.com/jkiss/Virtual-Scroll-Handler.git"
   },
   "keywords": [
     "scroll",
     "virtual",
     "scrollbar"
   ],
-  "author": {
-    "name": "J.K.Bi",
-    "url": "https://www.mrb-fe.dev"
-  },
+  "author": "J.K.Bi (https://www.mrb-fe.dev)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jkiss/Virtual-Scroll-Handler/issues"
