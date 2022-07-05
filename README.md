@@ -8,13 +8,13 @@ See it in action: https://thibautfoussard.com/
 # Install
 
 ```bash
-npm i virtual-scroll-handler
+npm i @j.k.bi/vsh
 ```
 
 # Hello world
 
 ```javascript
-import virtualScrollHandler from 'virtual-scroll-handler'
+import virtualScrollHandler from '@j.k.bi/vsh'
 
 let scroller = new virtualScrollHandler({
     range: [0, 2000],
@@ -26,8 +26,8 @@ let scroller = new virtualScrollHandler({
     }]
 });
 
-(function loop() {
-    requestAnimationFrame(loop);
+(function animate() {
+    requestAnimationFrame(animate);
     scroller.update();
 })();
 ```
@@ -145,7 +145,7 @@ scroller.goTo( 500, false );
 
 # Example
 ```javascript
-import scrollHandler from 'virtual-scroll-handler'
+import scrollHandler from '@j.k.bi/vsh'
 
 new scrollHandler({
     range: [0, 2000],
@@ -163,8 +163,8 @@ new scrollHandler({
     fadeOutDelay: 500
 });
 
-(function loop() {
-    requestAnimationFrame(loop);
+(function animate() {
+    requestAnimationFrame(animate);
     scroller.update();
     console.log(scroller.completion);
 })();

@@ -1,6 +1,6 @@
 {
   "name": "@j.k.bi/vsh",
-  "version": "1.9.2",
+  "version": "2.0.0",
   "description": "Virtual scrollbar, for when you need to handle scroll events without an actual DOM scrolling.",
   "main": "index.js",
   "scripts": {
