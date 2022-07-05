@@ -1,0 +1,28 @@
+{
+  "name": "virtual-scroll-handler",
+  "version": "1.9.2",
+  "description": "Virtual scrollbar, for when you need to handle scroll events without an actual DOM scrolling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/thibka-tools/fixed-scroll-handler.git"
+  },
+  "keywords": [
+    "scroll",
+    "virtual",
+    "scrollbar"
+  ],
+  "author": "thibka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/thibka-tools/fixed-scroll-handler/issues"
+  },
+  "homepage": "https://gitlab.com/thibka-tools/fixed-scroll-handler#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "normalize-wheel": "^1.0.1"
+  }
+}
